@@ -1,0 +1,29 @@
+{
+  "name": "twitchtv",
+  "version": "1.0.0",
+  "description": "Application that makes api calls and retreive JSON data from twitch.tv",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keronmat/Twitch-TV-Application-freeCodeCamp-App.git"
+  },
+  "author": "Keron Matthews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keronmat/Twitch-TV-Application-freeCodeCamp-App/issues"
+  },
+  "homepage": "https://github.com/Keronmat/Twitch-TV-Application-freeCodeCamp-App#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

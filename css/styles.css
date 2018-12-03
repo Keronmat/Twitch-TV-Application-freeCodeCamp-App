@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Playfair+Display');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Alegreya', serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-color: #9B59B6;
+}
+
+.container {
+    padding: 0;
+    width: 350px;
+    margin: 0 auto;
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    background-color: #EBDEF0;
+}
+
+#logo {
+    display: block;
+    margin: 0;
+    margin-bottom: -10px;
+    width: 350px;
+    height: auto;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.mynav {
+    background-color: ;
+    overflow: hidden;
+    text-transform: uppercase;
+    width: 350px;
+    font-family: 'Playfair Display', serif;
+}
+
+.mynav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 116px;
+    margin: ;
+}
+
+.mynav a:hover {
+    background-color: #7D33FF;
+    color: white;
+}
+
+.mynav a.active {
+    background-color: #A95BF3;
+    color: white;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.input-group.input-group-sm {
+    width: 340px;
+    margin: 0 auto;
+}
+
+#fccStatus {
+    text-align: center;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 30px;
+
+}
+
+#main {
+    margin: 10px 5px 10px 5px;
+    padding: 5px 5px 5px 5px;
+    height: auto;
+}
+
+#All {
+    position: relative;
+    margin: ;
+    padding: 0;
+    clear: both;
+}
+
+a>#All {
+    clear: both;
+}
+
+.status {
+    color: #FF5733;
+    font-size: 10px;
+    left: 80px;
+    line-height: 90%;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+.name {
+    position: absolute;
+    font-size: 20px;
+    color: #7D33FF;
+    left: 80px;
+    top: 10px;
+}
+
+.pic img {
+    vertical-align: bottom;
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 0;
+    border-radius: 50%;
+    position: relative;
+}
+
+.availability {
+    font-size: 12px;
+    color: #D8030D;
+    right: 10px;
+    bottom: 47px;
+    color: ;
+    position: absolute;
+}
+
+.game {
+    position: absolute;
+    font-size: 15px;
+    color: #BE03D8;
+    left: 80px;
+    bottom: 0;
+}
+
+.footer {
+    font-size: 0.5em;
+    font-weight: bold;
+    bottom: 0;
+    position: absolute;
+    margin-top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.online {
+    font-color: #1AD803;
+}
+
+.offline {
+    font-color: #D80303;
+}
+
+.fa fa-exclamation {
+    color: grey;
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 100%;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    .mynav {
+        width: 100%;
+    }
+
+    .mynav a {
+        width: 33.33%;
+        margin: ;
+    }
+
+    .input-group.input-group-sm {
+        width: 95%;
+        margin: 0 auto;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 640px;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    .mynav {
+        width: 100%;
+    }
+
+    .mynav a {
+        width: 33.33%;
+        margin: ;
+    }
+
+    .input-group.input-group-sm {
+        width: 95%;
+        margin: 0 auto;
+
+    }
+}
