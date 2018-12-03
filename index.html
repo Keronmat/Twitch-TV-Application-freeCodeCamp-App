@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> FCC | Twitch-TV </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta content="UTF-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get the local weather in your city">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--Navigation bar -->
+        <header>
+            <a href="#home">
+                <img id="logo" src="https://wapcr.surge.sh/twitch-logo-blade.png" alt="logo">
+            </a>
+            <nav class="mynav">
+                <ul id="navButton">
+                    <li id="allButton" class="all">
+                        <a class="active" href="#">All</a>
+                    </li>
+                    <li id="onlineButton">
+                        <a href="#">Online</a>
+                    </li>
+                    <li id="offlineButton">
+                        <a href="#">Offline</a>
+                    </li>
+                </ul>
+            </nav <!--Navigation bar ends -->
+            <form>
+                <div class="input-group input-group-sm">
+                    <input id="input" class="form-control " type="text" name="search" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button class="btn" id="searchButton" type="button" for="search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </header>
+        <!--Main content Begins-->
+        <section id="main">
+            <div id="fccStatus">
+                <a href="https://www.twitch.tv/freecodecamp" target="_blank"><span id="FCC"></span>
+                </a>
+            </div>
+            <div id="content"></div>
+        </section>
+        <!--Main content Ends-->
+
+        <!--Footer -->
+        <footer class="footer text-center">
+            <h6>
+                Coded by Keron Matthews
+            </h6>
+            <p>Copyright © Freecodecamp. All Rights Reserved </p>
+        </footer>
+    </div>
+    <!--Footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
